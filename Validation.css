@@ -1,0 +1,94 @@
+body {
+    font-family: Cormorant Garamond;
+    background-color: #f2f2f2;
+    background-image: url(images/download.jpeg);
+    background-size: contain;
+}
+
+.container-fluid {
+    margin: 150px auto;
+    border-radius: 40px;
+    background-color: rgba(97, 160, 160, 0.95);
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    background: linear-gradient(to left, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 20px 20px 10px 10px rgba(3, 1, 1, 0.4);
+}
+
+h2 {
+    color: black !important;
+    font-family: Cormorant Garamond;
+    text-transform: uppercase;
+    font-size: 40px !important;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group i {
+    margin-left: 10px;
+}
+
+.form-group label {
+    color: black !important;
+    font-family: Cormorant Garamond;
+    text-transform: uppercase;
+    font-size: 20px !important;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    text-align: justify !important;
+    width: 450px;
+    padding: 8px;
+    border: 1px groove #ccc;
+    border-radius: 40px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.form-group input.error {
+    border-color: red;
+}
+
+.form-group .error-message {
+    margin-top: 5px;
+}
+
+.form-group .error-message span {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form-group .error-message span::before {
+    content: '\u2022';
+    color: red;
+}
+
+.form-group .error-message span:last-child {
+    margin-right: 0;
+}
+
+.submit-btn {
+    display: block;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    background-color: rgb(30, 30, 202);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
